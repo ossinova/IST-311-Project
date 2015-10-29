@@ -69,7 +69,8 @@ public class MainMenuGUI extends javax.swing.JFrame {
             }
         });
 
-        nameEntryField.setText("Enter Name...");
+        nameEntryField.setEditable(false);
+        nameEntryField.setText("bob");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel2.setText("Choose your vehicle!");
